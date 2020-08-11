@@ -1,9 +1,5 @@
 /* Small - <600px */
 @media (min-width: 0px) {
-    
-    
-    
-    
     html {
         font-family: 'IBM Plex Sans', sans-serif;
         font-size: 15px;
@@ -66,10 +62,6 @@
         color: #f24333;
     }
 
-    .intro-container {
-        background-color: #f24333;
-    }
-
     // viget.com/articles/angled-edges-with-css-masks-and-transforms/
     .intro {
         background: #18314d;
@@ -112,9 +104,71 @@
         margin: 0 0 0 0;
     }
 
+    .intro .desc {
+        font-size: 1.2em;
+    }
+
     .intro h1 {
         color: #f24333;
         margin: 20px 0 20px 0;
+    }
+
+    .about {
+        background: #18314d;
+        padding: 20px 0 20px 2em;
+        position: relative;
+        z-index: 0;
+
+        letter-spacing: 0.08em;
+        line-height: 2em;
+
+        &:before,
+        &:after {
+            background: inherit;
+            content: '';
+            display: block;
+            height: 50%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            -webkit-backface-visibility: hidden; // for Chrome Windows
+        }
+
+        &:before {
+            top: 0;
+            transform: skewY(-1.5deg);
+            transform-origin: 0 100%;
+        }
+
+        &:after {
+            bottom: 0;
+            transform: skewY(1.5deg);
+            transform-origin: 0 100%;
+        }
+    }
+
+    .about p {
+        font-size: 1.2em;
+        color: rgb(235, 235, 235);
+        margin: 0 0 10px 0;
+    }
+
+    .about p:last-child {
+        margin: 0 0 0 0;
+    }
+    
+    .link {
+        color: #f24333;
+    }
+
+    .about h1 {
+        color: #f24333;
+        margin: 20px 0 20px 0;
+    }
+
+    .pic {
+        width: 80%;
     }
 }
 
@@ -127,6 +181,11 @@
 @media (min-width: 992px) {
     .intro {
         background: #18314d;
+        padding: 30px 8% 30px 8%;
+    }
+    .about {
+        background: #18314d;
+        margin-top: 150px;
         padding: 30px 8% 30px 8%;
     }
 
