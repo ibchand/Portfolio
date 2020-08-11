@@ -1,0 +1,24 @@
+/* Extra Small - <576px */
+@media (min-width: 0px) {
+
+}
+
+/* Small - <768px */ 
+@media (min-width: 576px) {
+
+}
+
+/* Medium - <992px */
+@media (min-width: 768px) {
+
+}
+
+/* Large - <1200px */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large - >1200px */
+@media (min-width: 1200px) {
+
+}
