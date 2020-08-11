@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'LECO 2014';
+    src: url('LECO2014.woff2') format('woff2'),
+        url('LECO2014.woff') format('woff'),
+        url('leco-2014.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
