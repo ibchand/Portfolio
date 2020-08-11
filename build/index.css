@@ -154,6 +154,26 @@
   .pic {
     width: 80%;
   }
+
+  .project {
+    margin-top: 150px;
+  }
+
+  .button-default {
+    border: 2px solid #f24333;
+    color: #ebebeb;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .button-slanted {
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
 }
 /* Medium - <992px */
 /* Large - <1200px */
