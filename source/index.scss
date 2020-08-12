@@ -6,6 +6,7 @@
         background-color: #f24333;
         letter-spacing: 0.08em;
         line-height: 2em;
+        -webkit-backface-visibility: hidden;
     }
 
     .container {
@@ -18,6 +19,7 @@
         z-index: 0;
         margin: 0 0 13% 0;
         padding: 2em 0 2em 0;
+        -webkit-backface-visibility: hidden;
 
         &:before,
         &:after {
