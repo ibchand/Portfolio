@@ -15,6 +15,9 @@
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="/materialize/css/materialize.css">
         <link rel="stylesheet" type="text/css" href="build/index.css">
+        <link rel="stylesheet" type="text/css" href="build/navbar.css">
+        <link rel="stylesheet" type="text/css" href="build/icon-bar.css">
+        <link rel="stylesheet" type="text/css" href="build/card.css">
         <link rel="stylesheet" type="text/css" href="styling/LECO_Font/stylesheet.css">
 
         <!-- Fonts -->
@@ -44,7 +47,6 @@
             </div>
         </nav>
 
-        
         <div class="icon-bar">
             <!-- Find a better way to implement these line accents -->
             <p class="bars">| <br> | <br> | <br> |</p>
@@ -55,48 +57,52 @@
         </div>
 
         <!-- Intro Block -->
-        <div class="intro">
-
+        <div class="slope negative-slope intro">
+          <div class="container">
             <p>Hello there! My name is</p>
             <h1>Ibrahim Chand.</h1>
             <h1>I like to Code.</h1>
-            <p class="desc">I'm a Junior at Boston University studying Computer Engineering. I'm actively looking for a Software Engineering internship, and have worked with a wide range of technologies and languages. Take a look at some of my work below!</p>
+            <p>I'm a Junior at Boston University studying Computer Engineering. I'm actively looking for a Software Engineering internship, and have worked with a wide range of technologies and languages. Take a look at some of my work below!</p>
+          </div>
         </div>
 
         <!-- About Block -->
-        <div class="about">
+        <div class="slope positive-slope about">
+          <div class="container">
             <div class="row">
-                <div class="col s6 center-align">
-                    <img class="pic" src="styling/images/about_pic.jpg" alt="Ibrahim Chand">
+                <div class="col l6 center-align valign-wrapper">
+                    <img class="pic valign" src="styling/images/about_pic.jpg" alt="Ibrahim Chand">
                 </div>
-                <div class="col s6 right-align">
+                <div class="col l6 center-align">
                     <h1>Who am I?</h1>
                     <p class="left-align">As you probably read above, my name is Ibrahim. I'm from Scarborough Maine, and I live in Boston, studying Computer Engineering at Boston University.</p>
                     <p class="left-align">I'm currently working as a developer for <a class="link" href="https://www.thesportedge.com/">SportEdge</a>, a startup focused on transforming college recruitment for high school athletes.</p>
                     <p class="left-align">Besides classes and work, I'm also the Vice Regent for the <a class="link" href="http://thetataubu.com/">Psi Delta chapter of Theta Tau</a> and enjoy working on side projects ranging from software to woodworking.</p>
                 </div>
             </div>
+          </div>
         </div>
 
-        <!-- Projects -->
-        <div class="intro project center-align">
+        <!-- Skills -->
+        <div class="slope negative-slope skill center-align">
+          <div class="container">
             <h1>What can I do?</h1>
             <p class="center-align">Languages</p>
             <div class="row">
-                <div class="button-default button-slanted">
-                  <span class="button-slanted-content">C/C++/C#</span>
+                <div class="button-slanted">
+                  <span>C/C++/C#</span>
                 </div>
-                <div class="button-default button-slanted">
-                  <span class="button-slanted-content">Python</span>
+                <div class="button-slanted">
+                  <span>Python</span>
                 </div>
-                <div class="button-default button-slanted">
-                  <span class="button-slanted-content">Java</span>
+                <div class="button-slanted">
+                  <span>Java</span>
                 </div>
-                <div class="button-default button-slanted">
-                  <span class="button-slanted-content">JavaScript</span>
+                <div class="button-slanted">
+                  <span>JavaScript</span>
                 </div>
-                <div class="button-default button-slanted">
-                  <span class="button-slanted-content">MATLAB</span>
+                <div class="button-slanted">
+                  <span>MATLAB</span>
                 </div>
             </div>
             <p class="center-align">Technologies</p>
@@ -111,6 +117,9 @@
                   <span class="button-slanted-content">React Native</span>
                 </div>
                 <div class="button-default button-slanted">
+                  <span class="button-slanted-content">HTML+SCSS/CSS</span>
+                </div>
+                <div class="button-default button-slanted">
                   <span class="button-slanted-content">Heroku</span>
                 </div>
                 <div class="button-default button-slanted">
@@ -122,9 +131,78 @@
                 <div class="button-default button-slanted">
                   <span class="button-slanted-content">SQL</span>
                 </div>
-            </div>
-            
+          </div>
         </div>
+      </div>
+
+        <!-- Projects -->
+        <!-- <div class="slope positive-slope project">
+          <div class="container">
+            <div class="row">
+              <div class="col l6">
+                <div class="card button-slanted">
+                  <div class="card-image">
+                    <img src="styling/images/about_pic.jpg">
+                    <span class="card-title">Card Title</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="slope positive-slope projects">
+          <div class="container">
+            <div class="row">
+              <div class="col l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://source.unsplash.com/random/500x300">
+                    <!-- <span class="card-title">Card Title</span> -->
+                  </div>
+                  <div class="card-content">
+                    <p class="title">SportEdge Website</p>
+                    <p>This is the website I </p>
+                  </div>
+                  <div class="card-action">
+                    <!-- <a href="https://github.com/ibchand"><i class="fab fa-github grow"></i></a> -->
+                    <a href="https://www.thesportedge.com/"><i class="fas fa-external-link-alt grow"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://source.unsplash.com/random/500x300">
+                    <!-- <span class="card-title">Card Title</span> -->
+                  </div>
+                  <div class="card-content">
+                    <p class="title">Oasis</p>
+                    <p>This project was part of the HackAsia Hackathon I took part in. It's a website that helps users create travel plans by providing up-to-date Coronavirus data, allowing them to avoid unsafe areas and travel safely.</p>
+                  </div>
+                  <div class="card-action">
+                    <!-- <a href="https://github.com/ibchand"><i class="fab fa-github grow"></i></a> -->
+                    <a href="https://oasis-travel-app.azurewebsites.net/"><i class="fas fa-external-link-alt grow"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="card-container">
+          <div class="slope card-slope projects">
+            <img class="card-pic" src="https://source.unsplash.com/random/500">
+            <p>This is another project I worked on!</p>
+          </div>
+        </div> -->
 
         <!-- JavaScript for Materialize -->
         <script src="/materialize/js/materialize.min.js"></script>

@@ -1,0 +1,41 @@
+@media (min-width: 0px) {
+    .icon-bar {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .icon-bar {
+        z-index: 1;
+        display: block;
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    /* Style the icon bar links */
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+        transition: all 0.3s ease;
+        color: rgb(235, 235, 235);
+        font-size: 23px;
+    }
+
+    .bars {
+        color: rgb(235, 235, 235);
+        line-height: 20px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .grow { 
+        transition: all .2s ease-in-out; 
+    }
+    .grow:hover { 
+        transform: scale(1.3); 
+    }
+}
