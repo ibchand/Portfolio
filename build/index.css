@@ -8,6 +8,7 @@
     line-height: 2em;
     -webkit-backface-visibility: hidden;
     -webkit-background-clip: content-box;
+    scroll-behavior: smooth;
   }
 
   .container {
