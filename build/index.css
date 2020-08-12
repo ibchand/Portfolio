@@ -156,6 +156,35 @@
     color: #f24333;
     font-size: 30px;
   }
+
+  .about a {
+    background: linear-gradient(to bottom, #f24333 0%, #f24333 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-y;
+    background-size: 0px 0px;
+    color: #f24333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .about a:hover {
+    color: #ebebeb;
+    background-size: 100% 100%;
+  }
+
+  .row .button-slanted {
+    background: linear-gradient(to bottom, #f24333 0%, #f24333 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-y;
+    background-size: 0px 0px;
+    color: #ebebeb;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .row .button-slanted:hover {
+    background-size: 100% 100%;
+  }
 }
 /* Medium - <992px */
 @media (min-width: 600px) {
