@@ -7,6 +7,7 @@
         letter-spacing: 0.08em;
         line-height: 2em;
         -webkit-backface-visibility: hidden;
+        -webkit-background-clip: content-box;
     }
 
     .container {
@@ -20,6 +21,7 @@
         margin: 0 0 13% 0;
         padding: 2em 0 2em 0;
         -webkit-backface-visibility: hidden;
+        -webkit-background-clip: content-box;
 
         &:before,
         &:after {
@@ -32,6 +34,7 @@
             right: 0;
             z-index: -1;
             -webkit-backface-visibility: hidden; // for Chrome Windows
+            -webkit-background-clip: content-box;
         }
     }
 
@@ -115,6 +118,7 @@
         -webkit-transform: skewX(-20deg);
         transform: skewX(-20deg);
         -webkit-backface-visibility: hidden;
+        -webkit-background-clip: content-box;
     }
 
     .button-slanted-content {
@@ -123,6 +127,7 @@
       transform: skewX(20deg);  
       display: inline-block;
       -webkit-backface-visibility: hidden;
+      -webkit-background-clip: content-box;
     }
 
     .card {
