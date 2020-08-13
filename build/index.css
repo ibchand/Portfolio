@@ -186,6 +186,38 @@
   .row .button-slanted:hover {
     background-size: 100% 100%;
   }
+
+  .positive-slope p.label {
+    display: inline;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .slope .row {
+    margin: 0;
+  }
+
+  .page-footer {
+    background-color: #18314d;
+    color: #ebebeb;
+    font-size: 1.1em;
+    padding: 15px 0 15px 0;
+  }
+
+  footer .row {
+    margin: 0;
+  }
+
+  .credit {
+    font-size: 1;
+    margin: 0 0 10px 0;
+  }
+
+  .page-footer a {
+    font-size: 1.8em;
+    color: #f24333;
+    padding: 0 10px 0 10px;
+  }
 }
 /* Medium - <992px */
 @media (min-width: 600px) {
