@@ -222,19 +222,35 @@
         background-color: #18314d;
         color: rgb(235, 235, 235);
         font-size: 1.1em;
-        padding: 15px 0 15px 0;
+        padding: 25px 0 25px 0;
     }
 
     footer .row {
         margin: 0;
     }
 
+    .footerContact {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #f24333;
+        margin: 0;
+    }
+
     .credit {
-        font-size: 1;
-        margin: 0 0 10px 0;
+        // font-size: 1em;
+        margin: 6px 0 0 0;
+    }
+
+    .footerInfo {
+        // font-size: 1em;
+        margin: 6px 0 6px 0;
     }
 
     .page-footer a {
+        color: rgb(235, 235, 235);
+    }
+
+    .page-footer .grow {
         font-size: 1.8em;
         color: #f24333;
         padding: 0 10px 0 10px;
