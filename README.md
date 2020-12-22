@@ -8,6 +8,6 @@
 <p>Reut Chen's website also helped me find a color palette. Find it here: https://www.reutchen.com/</p>
 
 # Commands
-Use this to have sass file convert to css
-sass --watch source/index.scss build/index.css
+<p>Use this to have sass file convert to css</p>
+<p>sass --watch source/index.scss build/index.css</p>
 https://www.cssmatic.com/box-shadow
